@@ -1,0 +1,42 @@
+[
+    {
+        "name": "iphone14+",
+        "price": 74000,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iphoneX",
+        "price": 50000,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iWatch",
+        "price": 25000,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "s20",
+        "price": 90000,
+        "company": "samsung"
+    },
+    {
+        "name": "A3s",
+        "price": 11000,
+        "company": "oppo" 
+    },
+    {
+        "name": "A2",
+        "price": 10000,
+        "company": "MI"
+    },
+    {
+        "name": "s20",
+        "price": 120000,
+        "company": "samsung",
+        "featured": true
+    }
+
+]
