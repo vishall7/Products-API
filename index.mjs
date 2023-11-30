@@ -7,6 +7,10 @@ import connectDB from "./db/connect.mjs"
 const port = process.env.PORT || 3000
 const app = express()
 
+app.get("/",(req,res)=>{
+    res.send("Products are ready to be served")
+})
+
 app.use("/api/products",router)
 
 const start = async () => {
