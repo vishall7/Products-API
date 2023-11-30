@@ -30,8 +30,12 @@ const products = async (req,res) => {
     let limit = Number(req.query.limit) || 10
     let skip = (page - 1) * limit   
 
-    const Products = await result.skip(skip).limit(limit) 
-    res.status(200).json({Products})
+    try {
+        const Products = await result.skip(skip).limit(limit) 
+        res.status(200).json({Products})
+    } catch (error) {
+        res.sendStatus(404)
+    }
 }
 const productCheck = async (req,res) => {
     res.json({message: "products are yet checked"})
